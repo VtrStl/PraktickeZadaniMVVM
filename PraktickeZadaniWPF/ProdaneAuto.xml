@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<auta>
+  <auto model="Škoda Oktávia">
+    <datum_prodeje>02-12-2010</datum_prodeje>
+    <cena>500000.0</cena>
+    <dph>20.0</dph>
+  </auto>
+  <auto model="Škoda Felicia">
+    <datum_prodeje>03-12-2000</datum_prodeje>
+    <cena>210000.0</cena>
+    <dph>20.0</dph>
+  </auto>
+  <auto model="Škoda Fabia">
+    <datum_prodeje>04-12-2010</datum_prodeje>
+    <cena>350000.0</cena>
+    <dph>20.0</dph>
+  </auto>
+  <auto model="Škoda Oktávia">
+    <datum_prodeje>04-12-2010</datum_prodeje>
+    <cena>500000.0</cena>
+    <dph>20.0</dph>
+  </auto>
+  <auto model="Škoda Oktávia">
+    <datum_prodeje>05-12-2010</datum_prodeje>
+    <cena>500000.0</cena>
+    <dph>20.0</dph>
+  </auto>
+  <auto model="Škoda Fabia">
+    <datum_prodeje>05-12-2010</datum_prodeje>
+    <cena>350000.0</cena>
+    <dph>20.0</dph>
+  </auto>
+  <auto model="Škoda Fabia">
+    <datum_prodeje>06-12-2010</datum_prodeje>
+    <cena>350000.0</cena>
+    <dph>20.0</dph>
+  </auto>
+  <auto model="Škoda Forman">
+    <datum_prodeje>04-12-2000</datum_prodeje>
+    <cena>100000.0</cena>
+    <dph>19.0</dph>
+  </auto>
+  <auto model="Škoda Favorit">
+    <datum_prodeje>05-12-2000</datum_prodeje>
+    <cena>80000.0</cena>
+    <dph>19.0</dph>
+  </auto>
+  <auto model="Škoda Forman">
+    <datum_prodeje>06-12-2000</datum_prodeje>
+    <cena>100000.0</cena>
+    <dph>19.0</dph>
+  </auto>
+  <auto model="Škoda Felicia">
+    <datum_prodeje>03-12-2000</datum_prodeje>
+    <cena>210000.0</cena>
+    <dph>19.0</dph>
+  </auto>
+  <auto model="Škoda Felicia">
+    <datum_prodeje>02-12-2000</datum_prodeje>
+    <cena>210000.0</cena>
+    <dph>19.0</dph>
+  </auto>
+  <auto model="Škoda Oktávia">
+    <datum_prodeje>07-12-2010</datum_prodeje>
+    <cena>500000.0</cena>
+    <dph>20.0</dph>
+  </auto>
+ </auta>
