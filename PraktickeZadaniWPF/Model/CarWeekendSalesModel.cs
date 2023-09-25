@@ -1,7 +1,7 @@
 ﻿namespace PraktickeZadaniWPF.Model
 {
     /// <summary>
-    /// Model pro načtení hodnot z XML které se prodali za víkend a inicializování těchto hodnot a následném vypočítání a zobrazení do OutputCalculate datagridu
+    /// Model pro načtení hodnot z XML které se prodali za víkend, inicializování těchto hodnot, následném vypočítání a zobrazení do OutputCalculate datagridu.
     /// </summary>
     public class CarWeekendSalesModel
     {

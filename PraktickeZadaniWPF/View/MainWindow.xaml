@@ -40,16 +40,16 @@
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="30"/>
                     <DataGridTextColumn Header="Název modelu" Binding="{Binding Model}" Width="*"/>
-                    <DataGridTextColumn Header="Datum prodeje" Binding="{Binding SaleDate, StringFormat=dd-MM-yyyy}" Width="*"/>
-                    <DataGridTextColumn Header="Cena" Binding="{Binding Price, StringFormat={}{0:C}, ConverterCulture='cs-CZ'}" Width="*"/>
+                    <DataGridTextColumn Header="Datum prodeje" Binding="{Binding SaleDate, StringFormat=dd.MM.yyyy}" Width="*"/>
+                    <DataGridTextColumn Header="Cena" Binding="{Binding Price, StringFormat={}{0:C0}, ConverterCulture='cs-CZ'}" Width="*"/>
                     <DataGridTextColumn Header="DPH" Binding="{Binding VAT}" Width="*"/>
                 </DataGrid.Columns>
             </DataGrid>
             <DataGrid Style="{StaticResource DataGridStyle}" ItemsSource="{Binding OutputCalculated}" Grid.Column="2" Grid.Row="1">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="30"/>
-                    <DataGridTextColumn Header="Název modelu&#x0a;Cena bez DPH" Binding="{Binding ModelPrice}" Width="*"/>
-                    <DataGridTextColumn Header="Cena s DPH" Binding="{Binding PriceWithVAT, StringFormat={}{0:C}, ConverterCulture='cs-CZ'}" Width="*"/>
+                    <DataGridTextColumn Header="Název modelu&#x0a;Cena bez DPH" Binding="{Binding ModelPrice, StringFormat={}{0:C0}, ConverterCulture='cs-CZ'}" Width="*"/>
+                    <DataGridTextColumn Header="Cena s DPH" Binding="{Binding PriceWithVAT, StringFormat={}{0:C0}, ConverterCulture='cs-CZ'}" Width="*"/>
                 </DataGrid.Columns>
             </DataGrid>
         </Grid>
